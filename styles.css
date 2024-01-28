@@ -40,7 +40,15 @@
     background: none;
     border: none;
     color: #fff;
-    
+    transition: background-color 0.3s, transform 0.3s; /* Adding a transition effect for background and transform */
+}
+
+.tool button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust the background color on hover */
+}
+
+.tool button:active {
+  transform: scale(1.1); /* Applying a scale transform on button click */
 }
 
 .notes textarea{
